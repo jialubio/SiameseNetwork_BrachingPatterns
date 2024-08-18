@@ -1,4 +1,4 @@
-# Dissimilarity Scoring of Bacterial Colony Patterns Using a Siamese Network
+# Dissimilarity Scoring of Bacterial Colony Patterns Using a Siamese Neural Network
 
 Bacterial colony patterns exhibit a high degree of diversity, making it crucial to characterize them for a deeper understanding of the underlying biological processes. However, these patterns can be irregular, and traditional approaches used for more standardized branching patterns—such as those formed by mineral crystallization, snowflakes, etc.—are often inapplicable, despite visual similarities. Additionally, bacterial colony patterns can vary from batch to batch due to biological noise, although their qualitative features are generally preserved. Established metrics for photography (e.g. [Structural similarity index(SSIM)](https://en.wikipedia.org/wiki/Structural_similarity_index_measure)) often introduce significant errors and may not be reliable for analyzing these patterns.
 
