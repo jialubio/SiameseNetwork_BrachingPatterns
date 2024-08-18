@@ -5,7 +5,8 @@ Bacterial colony patterns exhibit a high degree of diversity, making it crucial 
 # Siaemese Network
 ![Picture1](https://github.com/user-attachments/assets/6ebb1e9d-c2a8-4024-ab47-2a51cde33bf7)
 
-To address this challenge, a Siamese network was developed to assess the similarities between different colony patterns. The Siamese network consists of two CNNs that compress colony images (either simulated or experimental) into smaller vectors, with a contrastive loss function applied to score their differences. During **training**, the CNN learns to extract key features from each class of patterns. The training data consists of simulated patterns from 5 distinct classes of branching patterns, characterized by varying combinations of branching width and density (in experiments, the patterns were generated under different environmental conditions; See this [paper](https://doi.org/10.15252/msb.202010089) for more details).
+To address this challenge, a Siamese network was developed to assess the similarities between different colony patterns. The Siamese network consists of two CNNs that compress colony images (either simulated or experimental) into smaller vectors, with a [contrastive loss](http://yann.lecun.com/exdb/publis/pdf/hadsell-chopra-lecun-06.pdf![image](https://github.com/user-attachments/assets/6e174647-4bd6-472c-b4bc-1695a9494b77)
+) function applied to score their differences. During **training**, the CNN learns to extract key features from each class of patterns. The training data consists of simulated patterns from 5 distinct classes of branching patterns, characterized by varying combinations of branching width and density (in experiments, the patterns were generated under different environmental conditions; See this [paper](https://doi.org/10.15252/msb.202010089) for more details).
 
 <p align="center">
 Training Data
