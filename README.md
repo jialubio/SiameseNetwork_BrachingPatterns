@@ -14,6 +14,9 @@ To address this challenge, a Siamese network was developed to assess the similar
 In the **testing** phase, two images are fed into the trained model, which outputs a dissimilarity score. The results demonstrate that the model effectively scores different types of patterns: the more visually dissimilar the patterns are, the higher the dissimilarity score.
 
 # Examples
+Dissimilarity score = 0.0
 ![Picture2](https://github.com/user-attachments/assets/92bcf2a4-87a0-4b67-922d-c54aeb601c85)
+Dissimilarity score = 1.14
 ![Picture3](https://github.com/user-attachments/assets/e298be3a-1372-498d-985e-b28f5724cdaa)
+Dissimilarity score = 1.53
 ![Picture4](https://github.com/user-attachments/assets/568399bd-ae4d-413e-95ed-b984b7caf092)
