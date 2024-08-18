@@ -8,10 +8,11 @@ Bacterial colony patterns exhibit a high degree of diversity, making it crucial 
 To address this challenge, a Siamese network was developed to assess the similarities between different colony patterns. The Siamese network consists of two CNNs that compress colony images (either simulated or experimental) into smaller vectors, with a contrastive loss function applied to score their differences. During **training**, the CNN learns to extract key features from each class of patterns. The training data consists of simulated patterns from 5 distinct classes of branching patterns, characterized by varying combinations of branching width and density (in experiments, the patterns were generated under different environmental conditions; See this [paper](https://doi.org/10.15252/msb.202010089) for more details).
 
 <p align="center">
-**Training Data**
+Training Data
 </p>
-![Picture1](https://github.com/user-attachments/assets/9e46d279-23f5-47be-9ed7-a4efbd630e14)
-
+<p align="center">
+  <img src="[https://github.com/user-attachments/assets/92bcf2a4-87a0-4b67-922d-c54aeb601c85](https://github.com/user-attachments/assets/9e46d279-23f5-47be-9ed7-a4efbd630e14)" alt="Picture1">
+</p>
 
 In the **testing** phase, two images are fed into the trained model, which outputs a dissimilarity score. The results demonstrate that the model effectively scores different types of patterns: the more visually dissimilar the patterns are, the higher the dissimilarity score.
 
