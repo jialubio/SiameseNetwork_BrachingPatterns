@@ -16,6 +16,14 @@ Training Data
 
 In the **testing** phase, two images are fed into the trained model, which outputs a dissimilarity score. The results demonstrate that the model effectively scores different types of patterns: the more visually dissimilar the patterns are, the higher the dissimilarity score.
 
+<p align="center">
+Test Data
+</p>
+Both experimental (top row) and simulated (bottom row) data were used.
+
+
+![Picture5](https://github.com/user-attachments/assets/2770b386-2ccc-4ee9-911c-24c12b2be92d)
+
 # Examples
 <p align="center">Dissimilarity score = 0.0.</p>
 <p align="center">
